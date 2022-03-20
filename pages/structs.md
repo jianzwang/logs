@@ -6,5 +6,7 @@
   ```
 - ((62376b0c-89da-4e0e-8e2a-5921d6cfca5d))
 - There is no way to define a struct that inherits the parent struct’s fields and method implementations.
-	- choose inheritance for two main reasons. One is for reuse of code: you can implement particular behavior for one type, and inheritance enables you to reuse that implementation for a different type.
-		-
+	- choose inheritance for two main reasons. One is for reuse of code:
+		- you can implement particular behavior for one type, and inheritance enables you to reuse that implementation for a different type.
+			- can share Rust code using default trait method implementations
+		- can also override the default implementation of the method when we implement the trait
