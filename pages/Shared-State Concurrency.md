@@ -24,3 +24,4 @@
 - [[RC<T>, the Reference Counted Smart Pointer]] Rc<T> is not safe to share across threads.
 - Atomic Reference Counting with **Arc<T>**
 	- **Arc<T>**is a type like **Rc<T>** that is safe to use in concurrent situations. The a stands for atomic, meaning _it’s an atomically reference counted_ type.
+	- thread safety comes with a performance penalty that you only want to pay when you really need to. I
