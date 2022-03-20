@@ -60,3 +60,7 @@ title:: hls__The_Rust_Programming_Language_1647766604099_0_1647767150563_0
   ls-type:: annotation
   hl-page:: 445
   id:: 6237696b-6a78-445c-a557-97cf1f116ac8
+- The struct is marked pub so that other code can use it, but the fields within the structremain private. 
+  ls-type:: annotation
+  hl-page:: 449
+  id:: 62376b0c-89da-4e0e-8e2a-5921d6cfca5d
