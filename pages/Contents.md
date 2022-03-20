@@ -1,4 +1,4 @@
-- [[Rust Language Basic]] 
+- [[Rust Language Basic]]
   collapsed:: true
 	- [[Smart Pointer]]
 		- [[Box<T>, Point to Data on the Heap]]
