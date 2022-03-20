@@ -26,4 +26,4 @@
 	- **Arc<T>**is a type like **Rc<T>** that is safe to use in concurrent situations. The a stands for atomic, meaning _it’s an atomically reference counted_ type.
 	- thread safety comes with a performance penalty that you only want to pay when you really need to.
 	- **Arc<T>** and **Rc<T>** have the same API
--
+	- Similarities Between **RefCell<T>**/Rc<T> and
