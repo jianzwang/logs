@@ -31,12 +31,18 @@
  {:block/name "concureency",
   :block/created-at 1647793272868,
   :block/updated-at 1647793272868}
+ {:block/name "concurrency",
+  :block/created-at 1647796083082,
+  :block/updated-at 1647796143676}
  {:block/name "content",
   :block/created-at 1647768059666,
   :block/updated-at 1647768059666}
  {:block/name "contents",
   :block/created-at 1647792255726,
-  :block/updated-at 1647792308945}
+  :block/updated-at 1647796131288}
+ {:block/name "contents(1)",
+  :block/created-at 1647796027849,
+  :block/updated-at 1647796288008}
  {:block/name "deref coercion",
   :block/created-at 1647775101429,
   :block/updated-at 1647775560103}
@@ -86,7 +92,7 @@
  {:block/name
   "hls__the_rust_programming_language_1647766604099_0_1647767150563_0",
   :block/created-at 1647767320836,
-  :block/updated-at 1647793561661}
+  :block/updated-at 1647796257187}
  {:block/name "in-progress",
   :block/created-at 1645674909618,
   :block/updated-at 1645674909618}
@@ -104,7 +110,7 @@
   :block/updated-at 1647792141526}
  {:block/name "message passing",
   :block/created-at 1647794073609,
-  :block/updated-at 1647794868089}
+  :block/updated-at 1647796365463}
  {:block/name "message passing(1)",
   :block/created-at 1647794502982,
   :block/updated-at 1647794502982}
@@ -129,9 +135,9 @@
  {:block/name "rust",
   :block/created-at 1647495143210,
   :block/updated-at 1647495143210}
- {:block/name "rust language",
+ {:block/name "rust language basic",
   :block/created-at 1647767163030,
-  :block/updated-at 1647795121091}
+  :block/updated-at 1647796190959}
  {:block/name "rust language(1)",
   :block/created-at 1647793590019,
   :block/updated-at 1647793590019}
@@ -140,7 +146,7 @@
   :block/updated-at 1647765985513}
  {:block/name "shared-state concurrency",
   :block/created-at 1647794900926,
-  :block/updated-at 1647794900926}
+  :block/updated-at 1647796388288}
  {:block/name "smart pointer",
   :block/created-at 1647767210542,
   :block/updated-at 1647775591224}
