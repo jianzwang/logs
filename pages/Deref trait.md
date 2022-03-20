@@ -1,0 +1,11 @@
+- {{embed ((62370b67-8083-4696-9752-e0a1c3b17002))}}
+- {{embed ((62370c4e-9c96-416b-8d98-79733d1d59bc))}}
+- we entered *y,  Rust actually ran this code:`*(y.deref())`
+- The reason the deref method returns a reference to a value, and that the plain dereference outside the parentheses in `*(y.deref())` is still necessary, is the ownership system. #ownership If the **deref** method returned the value directly instead of a reference to the value, the valuewould be moved out of self.
+- Note that the * operator is replaced with a call to the **deref** method and then a call to the * operator just once, each time we use a * in our code.
+- [[Deref coercion]]  is a convenience that Rust performs on arguments to functions and methods.
+	- Deref coercion works only on types that implement the Deref trait
+	- Deref coercion converts such a type into a reference to another type.
+	- deref coercion can convert &String to &str because String implements the **Deref trait** such that it returns &str.
+	- Deref coercion happens automatically when we pass a reference to a particular type’s value as an argument to a function or method that doesn’t match the parameter type in the function or method definition.
+-

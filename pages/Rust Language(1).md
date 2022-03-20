@@ -1,0 +1,14 @@
+- ![The_Rust_Programming_Language_1647766604099_0.pdf](../assets/The_Rust_Programming_Language_1647766604099_0_1647767150563_0.pdf)
+-
+- ## [[Smart Pointer]]
+	- [[Box<T>, Point to Data on the Heap]]
+	- [[RC<T>, the Reference Counted Smart Pointer]]
+	- [[RefCell<T> and the Interior Mutability Pattern]]
+		-
+- ## [[Concureency]]
+- ((623754a6-e39a-422e-96ca-5ba5b4e569f0))
+- {{embed ((62375519-cbf3-4928-ad96-3e1ba3369e04))}}
+- ((62375553-688e-41d6-8dc2-f93140e967c9))
+-
+- []
+-

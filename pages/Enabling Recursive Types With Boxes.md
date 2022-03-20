@@ -1,0 +1,4 @@
+- Rust can’t figure out how much space to allocate for recursively defined types
+- store the value indirectly by storing a pointer to the value instead.
+- The Box<T> type is a smart pointer because it implements the [[Deref trait]], which allows Box<T> values to be treated like references.
+- When a Box<T> value goes out of scope, the heap data that the box is pointing to is cleaned up as well because of the [[Drop trait]] implementation.

@@ -1,0 +1,4 @@
+- {{embed ((62370b67-8083-4696-9752-e0a1c3b17002))}}
+- {{embed ((62370c4e-9c96-416b-8d98-79733d1d59bc))}}
+- we entered *y,  Rust actually ran this code:`*(y.deref())`
+- The reason the deref method returns a reference to a value, and that the plain dereference outside the parentheses in ``*(y.deref()) is still necessary, is the ownership system.

@@ -1,0 +1,9 @@
+file-path:: ../assets/The_Rust_Programming_Language_1647766604099_0.pdf
+file:: [The_Rust_Programming_Language_1647766604099_0.pdf](../assets/The_Rust_Programming_Language_1647766604099_0.pdf)
+title:: hls__The_Rust_Programming_Language_1647766604099_0
+
+- ![The_Rust_Programming_Language_1647766604099_0.pdf](../assets/The_Rust_Programming_Language_1647766604099_0_1647766933549_0.pdf)
+-
+- # Known Size Types
+- ## Tuple
+-
