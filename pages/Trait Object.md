@@ -4,7 +4,7 @@
 - Object Safety Is Required for Trait Objects
 	- ((62377170-7440-4968-8664-b6901eb5881f))
 	- but in practice, only two rules are relevant. A trait is object safe if all the methods defined in the trait have the following properties:
-	  * The return type isn’t Self.
+	  * The return type isn’t Self. 
 	  * There are no generic type parameters.
 	- Trait objects must be object safe because once you’ve used a trait object, Rust no longer knows the concrete type that’s implementing that trait
 -
