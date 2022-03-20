@@ -30,10 +30,10 @@ title:: hls__The_Rust_Programming_Language_1647766604099_0_1647767150563_0
   ls-type:: annotation
   hl-page:: 392
   id:: 62370f8a-7376-464e-984a-5e3a6289b893
-- Handling concurrent programming safely and efficiently is another of Rust’s major goals.
-  ls-type:: annotation
-  hl-page:: 421
-  id:: 623754a6-e39a-422e-96ca-5ba5b4e569f0
+	- Handling concurrent programming safely and efficiently is another of Rust’s major goals.
+	  ls-type:: annotation
+	  hl-page:: 421
+	  id:: 623754a6-e39a-422e-96ca-5ba5b4e569f0
 - Programming language-provided threads are known as green threads, and languages that use these green threads will execute them in the context of a different number of operating system threads. For this reason, the green-threaded model is called the M:N model: there are M green threads per N operating system threads, where M and N are not necessarily the same number.
   hl-page:: 422
   ls-type:: annotation
