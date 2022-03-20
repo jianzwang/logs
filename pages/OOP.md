@@ -1,3 +1,5 @@
+public:: true
+
 - > Object-oriented programs are made up of objects. An object packages both data and the procedures that operate on that data. The procedures are typically called methods or operations.
 	- [[structs]] and [[enums]] have data, and [[impl]] blocks provide methods on structs and enums. Even though **structs** and **enums** with **methods** aren’t called objects, they provide the same functionality,
 - > Inheritance is a mechanism whereby an object can inherit from another object’s definition,
