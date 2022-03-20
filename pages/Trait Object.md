@@ -7,4 +7,4 @@
 	  * The return type isn’t Self. 
 	  * There are no generic type parameters.
 	- Trait objects must be object safe because once you’ve used a trait object, Rust no longer knows the concrete type that’s implementing that trait
--
+	- If a trait method returns the concrete **Self** type, but a trait object forgets the exact type that Self is, there is no way the method can use the original concrete type.
