@@ -3,3 +3,6 @@
 	- For this reason, **Rc<T>** is implemented for use in single-threaded situations where you don’t want to pay the thread-safe performance penalty.
 - ((6237696b-6a78-445c-a557-97cf1f116ac8))
 	- any type T is Sync if &T (an immutable reference to T) is Send, meaning the reference can be sent safely to another thread.
+	- Similar to Send, primitive types are Sync, and types composed entirely of types that are Sync are also Sync.
+	- The [[RC<T>, the Reference Counted Smart Pointer]] smart pointer Rc<T> is also not Sync for the same reasons that it’s not Send. The [[RefCell<T> and the Interior Mutability Pattern]]  RefCell<T> type and the family of related Cell<T>types are not Sync.
+-
