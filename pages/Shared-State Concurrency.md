@@ -21,3 +21,4 @@
     println!("Result: {}", *counter.lock().unwrap());
   }
   ```
+- [[RC<T>, the Reference Counted Smart Pointer]] Rc<T> is not safe to share across threads.
