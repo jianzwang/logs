@@ -1,3 +1,5 @@
+public:: true
+
 - [[Rust Language Basic]]
 	- [[Smart Pointer]]
 		- [[Box<T>, Point to Data on the Heap]]
