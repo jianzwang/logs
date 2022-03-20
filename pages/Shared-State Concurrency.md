@@ -27,4 +27,5 @@
 	- thread safety comes with a performance penalty that you only want to pay when you really need to.
 	- **Arc<T>** and **Rc<T>** have the same API
 	- Similarities Between **RefCell<T>**/**Rc<T>** and  **Mutex<T>**/**Arc<T>**
-		- Mutex<T> provides interior mutability, as the Cell familydoes.
+		- counter is immutable, Mutex<T> provides interior mutability, as the Cell family does.
+		- Mutex<T> comes with the risk of creating deadlocks. These occur when an operation needs to lock two resources and two threads have each acquired one of the locks, causing them to wait for each other forever.
