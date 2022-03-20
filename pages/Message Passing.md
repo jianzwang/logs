@@ -1,3 +1,5 @@
+public:: true
+
 - > “Do not communicate by sharingmemory; instead, share memory by communicating.”
 - ((623757c0-c06d-4dcb-9b18-1e92f4d256bf))
 - A channel in programming has two halves: a transmitter and a receiver.

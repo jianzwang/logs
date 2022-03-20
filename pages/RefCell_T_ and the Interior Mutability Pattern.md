@@ -1,3 +1,5 @@
+public:: true
+
 - ((6236f29d-1443-4250-acdf-fbd2f8a39fe3))
 - Unlike Rc<T>, the RefCell<T> type represents single ownership over the data it holds. So,what makes RefCell<T> different from a type like Box<T>? Recall the borrowing rules youlearned in Chapter 4:
   

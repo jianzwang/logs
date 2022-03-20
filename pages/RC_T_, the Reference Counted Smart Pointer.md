@@ -1,3 +1,4 @@
+public:: true
 title:: RC<T>, the Reference Counted Smart Pointer
 
 - ((6236efd9-20f8-4198-8d90-245352a3e6e4))

@@ -1,3 +1,5 @@
+public:: true
+
 - Handling concurrent programming safely and efficiently is another of Rust’s major goals.
   ls-type:: annotation
   hl-page:: 421
