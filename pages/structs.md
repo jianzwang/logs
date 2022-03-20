@@ -5,6 +5,7 @@
   }
   ```
 - ((62376b0c-89da-4e0e-8e2a-5921d6cfca5d))
+- In a struct or enum, the data in the struct fields and the behavior in [[impl]] blocks are separated, whereas in other languages, the data and behavior combined into one concept is often labeled an object
 - There is no way to define a struct that inherits the parent struct’s fields and method implementations.
 	- choose inheritance for two main reasons. One is for reuse of code:
 		- can implement particular behavior for one type, and inheritance enables you to reuse that implementation for a different type.
