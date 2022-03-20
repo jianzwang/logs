@@ -1,4 +1,5 @@
-- [[Rust Language Basic]]
+- [[Rust Language Basic]] 
+  collapsed:: true
 	- [[Smart Pointer]]
 		- [[Box<T>, Point to Data on the Heap]]
 		- [[RC<T>, the Reference Counted Smart Pointer]]
@@ -7,4 +8,4 @@
 		- [[Spawn]]
 		- [[Message Passing]]
 		- [[Shared-State Concurrency]]
--
+- ![The_Rust_Programming_Language_1647766604099_0.pdf](../assets/The_Rust_Programming_Language_1647766604099_0_1647767150563_0.pdf)
