@@ -1,0 +1,2 @@
+- ((623768f4-e6c1-4aa4-b7db-0e222f9bff74))
+- Almost every Rust type is Send, but there are someexceptions, including Rc<T>: this cannot be Send because if you cloned an Rc<T> valueand tried to transfer ownership of the clone to another thread, both threads might updatethe reference count at the same time.

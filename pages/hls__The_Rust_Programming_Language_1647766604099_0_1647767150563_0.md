@@ -52,3 +52,7 @@ title:: hls__The_Rust_Programming_Language_1647766604099_0_1647767150563_0
   ls-type:: annotation
   hl-page:: 437
   id:: 623760a2-bb6e-4580-b5b3-3b184222bb9f
+- The Send marker trait indicates that ownership of values of the type implementing Sendcan be transferred between threads. 
+  ls-type:: annotation
+  hl-page:: 445
+  id:: 623768f4-e6c1-4aa4-b7db-0e222f9bff74
