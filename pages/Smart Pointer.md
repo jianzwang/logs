@@ -1,3 +1,4 @@
+public:: true
 filters:: {}
 
 - Here is a recap of the reasons to choose Box<T>, Rc<T>, or RefCell<T>:

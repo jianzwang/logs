@@ -1,6 +1,6 @@
 public:: true
 
-- [[Rust Language Basic]]
+- Rust Language Basic
 	- [[Smart Pointer]]
 		- [[Box<T>, Point to Data on the Heap]]
 		- [[RC<T>, the Reference Counted Smart Pointer]]

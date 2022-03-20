@@ -1,3 +1,4 @@
+public:: true
 title:: Box<T>, Point to Data on the Heap
 
 - ((62370a01-b3fa-4358-878a-0acf04c3a9f5))
