@@ -1,5 +1,5 @@
 - ## Defining a Trait for Common Behavior
 	- The advantage of using trait objects and Rust’s type system to write code similar to code using duck typing is that we never have to check whether a value implements a particular method at runtime or worry about getting errors if a value doesn’t implement a method bu tuse Rust won’t compile our code if the values don’t implement the traits that the trait objects need.
-- ## monomorphization process
+- ## monomorphization process #monomorphization
 	- performed by the compiler when we use trait bounds on generics: the compiler generates non generic implementations of functions and methods foreach concrete type that we use in place of a generic type parameter. The code that results from monomorphization is doing _static dispatch_,which is when the compiler knows what method you’re calling at compile time.
 		- _dynamic dispatch_, which is when the compiler can’t tell at compile time which method you’re calling. In dynamic dispatch cases, the compiler emits code that at runtime will figure out which method to call.

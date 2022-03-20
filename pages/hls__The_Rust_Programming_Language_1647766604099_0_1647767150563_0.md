@@ -64,3 +64,7 @@ title:: hls__The_Rust_Programming_Language_1647766604099_0_1647767150563_0
   ls-type:: annotation
   hl-page:: 449
   id:: 62376b0c-89da-4e0e-8e2a-5921d6cfca5d
+- You can only make object-safe traits into trait objects. 
+  ls-type:: annotation
+  hl-page:: 458
+  id:: 62377170-7440-4968-8664-b6901eb5881f
