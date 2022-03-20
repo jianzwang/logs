@@ -6,3 +6,5 @@
 	- Similar to Send, primitive types are Sync, and types composed entirely of types that are Sync are also Sync.
 	- The [[RC<T>, the Reference Counted Smart Pointer]] smart pointer Rc<T> is also not Sync for the same reasons that it’s not Send. The [[RefCell<T> and the Interior Mutability Pattern]]  RefCell<T> type and the family of related Cell<T>types are not Sync.
 -
+- Implementing **Send** and **Sync** Manually Is Unsafe
+-
