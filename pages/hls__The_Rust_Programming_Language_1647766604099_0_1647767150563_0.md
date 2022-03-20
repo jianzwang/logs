@@ -48,3 +48,7 @@ title:: hls__The_Rust_Programming_Language_1647766604099_0_1647767150563_0
   ls-type:: annotation
   hl-page:: 430
   id:: 623757c0-c06d-4dcb-9b18-1e92f4d256bf
+- Sharedmemory concurrency is like multiple ownership: multiple threads can access the samememory location at the same time. 
+  ls-type:: annotation
+  hl-page:: 437
+  id:: 623760a2-bb6e-4580-b5b3-3b184222bb9f

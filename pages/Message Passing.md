@@ -36,4 +36,4 @@
     }
   }
   ```
--
+- channels in any programming language are similar to single ownership, because once you transfer a value down a channel, you should no longer use that value.
