@@ -14,4 +14,4 @@
 		    fn clone(&self) -> Self;
 		  }
 		  ```
-		- The String type implements the Clone trait, and when we call the clone method on an instance of String we get back an instance of String. Similarly, if we call clone on an instance of **Vec<T>**, we get back an instance of **Vec<T>**. The signature of clone needs to know what type will stand in for Self, because that’s the return type.
+		- The String type implements the Clone trait, and when we call the clone method on an instance of String we get back an instance of String. Similarly, if we call clone on an instance of **Vec<T>**, we get back an instance of Vec<T>. The signature of clone needs toknow what type will stand in for Self, because that’s the return type.
