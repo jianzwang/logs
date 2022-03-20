@@ -1,3 +1,4 @@
 - ## Defining a Trait for Common Behavior
 	- The advantage of using trait objects and Rust’s type system to write code similar to code using duck typing is that we never have to check whether a value implements a particular method at runtime or worry about getting errors if a value doesn’t implement a method bu tuse Rust won’t compile our code if the values don’t implement the traits that the trait objects need.
+- ## monomorphization process
 -
