@@ -1,3 +1,5 @@
+public:: true
+
 - ((623760a2-bb6e-4580-b5b3-3b184222bb9f))
 - ```rust
   use std::sync::{Arc, Mutex};
