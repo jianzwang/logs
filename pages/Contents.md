@@ -5,4 +5,6 @@
 		- [[RefCell<T> and the Interior Mutability Pattern]]
 	- [[Concurrency]]
 		- [[Spawn]]
-		-
+		- [[Message Passing]]
+		- [[Shared-State Concurrency]]
+-
