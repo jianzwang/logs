@@ -3,5 +3,6 @@
 - ## monomorphization process
 	- performed by the compiler when we use trait bounds on generics: the compiler generates non generic implementations of functions and methods foreach concrete type that we use in place of a generic type parameter. The code that results from monomorphization is doing _static dispatch_,which is when the compiler knows what method you’re calling at compile time.
 		- _dynamic dispatch_, which is when the compiler can’t tell at compile time which method you’re calling. In dynamic dispatch cases, the compiler emits code that at runtime will figure out which method to call.
+- ## trait Object
 	- When we use trait objects, Rust must use _dynamic dispatch_. The compiler doesn’t know all the types that might be used with the code that is using trait objects, so it doesn’t know which method implemented on which type to call.
 		- There is a runtime cost when this lookup happens that doesn’t occur with static dispatch. Dynamic dispatch also prevents the compiler from choosing to inline a method’s code, which in turn prevents some optimizations.
