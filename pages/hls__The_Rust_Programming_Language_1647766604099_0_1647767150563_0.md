@@ -56,3 +56,7 @@ title:: hls__The_Rust_Programming_Language_1647766604099_0_1647767150563_0
   ls-type:: annotation
   hl-page:: 445
   id:: 623768f4-e6c1-4aa4-b7db-0e222f9bff74
+- The Sync marker trait indicates that it is safe for the type implementing Sync to bereferenced from multiple threads. 
+  ls-type:: annotation
+  hl-page:: 445
+  id:: 6237696b-6a78-445c-a557-97cf1f116ac8

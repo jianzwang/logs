@@ -2,4 +2,3 @@
 	- Almost every Rust type is Send, but there are some exceptions, including [[RC<T>, the Reference Counted Smart Pointer]] Rc<T>: this cannot be Send because if you cloned an **Rc<T>** value and tried to transfer ownership of the clone to another thread, both threads might update the reference count at the same time.
 	- For this reason, **Rc<T>** is implemented for use in single-threaded situations where you don’t want to pay the thread-safe performance penalty.
 - ((6237696b-6a78-445c-a557-97cf1f116ac8))
-	- any type T is Sync if &T (an immutable reference to T) is Send, meaning the reference can be sent safely to another thread.
