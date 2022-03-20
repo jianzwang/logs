@@ -1,0 +1,2 @@
+- ## Defining a Trait for Common Behavior
+-
