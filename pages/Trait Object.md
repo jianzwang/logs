@@ -8,3 +8,10 @@
 	  * There are no generic type parameters.
 	- Trait objects must be object safe because once you’ve used a trait object, Rust no longer knows the concrete type that’s implementing that trait
 	- If a trait method returns the concrete **Self** type, but a trait object forgets the exact type that Self is, there is no way the method can use the original concrete type.
+	- a trait whose methods are not object safe is the standard library’s [[Clone trait]].
+		- ```rust
+		  pub trait Clone {
+		    fn clone(&self) -> Self;
+		  }
+		  ```
+		- The String type implements the Clone trait, and when we call the clone method on aninstance of String we get back an instance of String. Similarly, if we call clone on aninstance of Vec<T>, we get back an instance of Vec<T>. The signature of clone needs toknow what type will stand in for Self, because that’s the return type.
